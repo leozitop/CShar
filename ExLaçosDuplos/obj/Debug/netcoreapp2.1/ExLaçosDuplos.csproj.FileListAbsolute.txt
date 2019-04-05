@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\bin\Debug\netcoreapp2.1\ExLaçosDuplos.deps.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\bin\Debug\netcoreapp2.1\ExLaçosDuplos.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\bin\Debug\netcoreapp2.1\ExLaçosDuplos.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\bin\Debug\netcoreapp2.1\ExLaçosDuplos.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\bin\Debug\netcoreapp2.1\ExLaçosDuplos.pdb
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExLaçosDuplos\obj\Debug\netcoreapp2.1\ExLaçosDuplos.pdb
