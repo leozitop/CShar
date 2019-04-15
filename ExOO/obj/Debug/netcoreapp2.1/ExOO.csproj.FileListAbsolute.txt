@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\bin\Debug\netcoreapp2.1\ExOO.deps.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\bin\Debug\netcoreapp2.1\ExOO.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\bin\Debug\netcoreapp2.1\ExOO.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\bin\Debug\netcoreapp2.1\ExOO.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\bin\Debug\netcoreapp2.1\ExOO.pdb
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExOO\obj\Debug\netcoreapp2.1\ExOO.pdb

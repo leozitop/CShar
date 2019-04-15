@@ -42,7 +42,6 @@ namespace Ex6Login
                     case 2: 
                     break;
                     
-                    default:
                 }
             }
 

@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\bin\Debug\netcoreapp2.1\ExArray.deps.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\bin\Debug\netcoreapp2.1\ExArray.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\bin\Debug\netcoreapp2.1\ExArray.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\bin\Debug\netcoreapp2.1\ExArray.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\bin\Debug\netcoreapp2.1\ExArray.pdb
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExArray\obj\Debug\netcoreapp2.1\ExArray.pdb

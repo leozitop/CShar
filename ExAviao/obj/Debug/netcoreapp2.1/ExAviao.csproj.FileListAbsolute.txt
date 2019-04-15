@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\bin\Debug\netcoreapp2.1\ExAviao.deps.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\bin\Debug\netcoreapp2.1\ExAviao.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\bin\Debug\netcoreapp2.1\ExAviao.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\bin\Debug\netcoreapp2.1\ExAviao.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\bin\Debug\netcoreapp2.1\ExAviao.pdb
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.dll
+C:\Users\45684686800\Documents\CSHARP\manha\ExAviao\obj\Debug\netcoreapp2.1\ExAviao.pdb
