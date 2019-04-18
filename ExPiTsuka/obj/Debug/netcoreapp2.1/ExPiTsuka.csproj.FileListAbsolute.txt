@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\bin\Debug\netcoreapp2.1\ExPiTsuka.deps.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\bin\Debug\netcoreapp2.1\ExPiTsuka.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\bin\Debug\netcoreapp2.1\ExPiTsuka.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\bin\Debug\netcoreapp2.1\ExPiTsuka.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\bin\Debug\netcoreapp2.1\ExPiTsuka.pdb
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExPiTsuka\obj\Debug\netcoreapp2.1\ExPiTsuka.pdb
