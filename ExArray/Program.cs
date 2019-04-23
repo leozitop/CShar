@@ -45,7 +45,7 @@ namespace ExArray
 
             Console.WriteLine("Quanto você quer sacar?");
             int saque = int.Parse(Console.ReadLine());
-            DateTime data = DateTime.Now; 
+            DateTime data; 
             
             for (int i = 0; i < dinheiro.Length; i++){
 
