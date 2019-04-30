@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\bin\Debug\netcoreapp2.1\ExMétodos.deps.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\bin\Debug\netcoreapp2.1\ExMétodos.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\bin\Debug\netcoreapp2.1\ExMétodos.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\bin\Debug\netcoreapp2.1\ExMétodos.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\bin\Debug\netcoreapp2.1\ExMétodos.pdb
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExMétodos\obj\Debug\netcoreapp2.1\ExMétodos.pdb
