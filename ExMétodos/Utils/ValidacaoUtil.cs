@@ -1,3 +1,5 @@
+using System;
+
 namespace ExMétodos.Utils
 {
     public class ValidacaoUtil
@@ -14,6 +16,15 @@ namespace ExMétodos.Utils
             {
                 return true;
             }return false;
+        }
+
+        public static bool ValidarTipo(string tipo){
+            if (tipo.Equals("Usuário") || tipo.Equals("Administrador"))
+            {
+                return true;
+            }else{
+                return false;
+            }
         }
     }
 }

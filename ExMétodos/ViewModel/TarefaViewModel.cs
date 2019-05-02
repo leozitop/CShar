@@ -1,6 +1,6 @@
 namespace ExMétodos.ViewModel
 {
-    public class TarefasViewModel : BaseViewModel
+    public class TarefaViewModel : BaseViewModel
     {
         public int Id{get;set;}
 
