@@ -98,7 +98,7 @@ namespace ExMétodos.ViewController
             foreach (var item in listaDeUsuarios)
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.WriteLine($"Id do usuário: {item.IdUser} - Nome: {item.Nome} - Email: {item.Email} - Senha: {item.Senha} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
+                Console.WriteLine($"Id do usuário: {item.IdUsuario} - Nome: {item.Nome} - Email: {item.Email} - Senha: {item.Senha} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
                 Console.ResetColor();
             }
         }

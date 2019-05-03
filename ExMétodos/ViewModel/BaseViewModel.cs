@@ -4,7 +4,7 @@ namespace ExMétodos.ViewModel
 {
     public class BaseViewModel
     {
-        public int IdUser{get;set;}
+        public int IdUsuario{get;set;}
         
         public string Nome{get;set;}
 

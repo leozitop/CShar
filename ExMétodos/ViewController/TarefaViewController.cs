@@ -60,7 +60,7 @@ namespace ExMétodos.ViewController
                 }
             } while (string.IsNullOrEmpty(tipo));
 
-            
+
 
             TarefaViewModel tarefaViewModel = new TarefaViewModel();
             tarefaViewModel.Nome = nome;
@@ -80,7 +80,7 @@ namespace ExMétodos.ViewController
             foreach (var item in listaDeTarefas)
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.WriteLine($"Id: {item.Id} - Id do usuário: {item.IdUser} - Nome: {item.Nome} - Dscrição: {item.Descricao} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
+                Console.WriteLine($"Id: {item.Id} - Id do usuário: {item.IdUsuario} - Nome: {item.Nome} - Dscrição: {item.Descricao} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
                 Console.ResetColor();
             }
         }
