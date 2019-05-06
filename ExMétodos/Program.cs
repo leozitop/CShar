@@ -24,12 +24,10 @@ namespace ExMétodos
                     //Cadastrar usuario
                     UsuarioViewController.CadastrarUsuario();
                     break;
-
                     case 2:
                     //Lista
                     UsuarioViewController.ListarUsuario();
                     break;
-
                     case 3:
                     //Login
                     UsuarioViewModel usuarioRecuperado = UsuarioViewController.EfetuarLogin();
@@ -43,21 +41,14 @@ namespace ExMétodos
                             switch (opcaoLogado)
                             {
                                 case 1:
-                                TarefaViewController.CadastrarTarefa();
+                                TarefaViewController.CadastrarTarefa(usuarioRecuperado);
                                 break;
-
-                                // case 2:
-                                // TarefaViewController.EfetuarTarefa();
-                                // break;
-
                                 case 2:
-                                TarefaViewController.ListarTarefa();
+                                TarefaViewController.ListarTarefa(usuarioRecuperado);
                                 break;
-
                                 case 0:
                                 Console.WriteLine("Volte sempre!");
                                 break;
-
                                 default:
                                 Console.WriteLine("Opção inválida, por favor digite novamente.");
                                 break;
@@ -65,12 +56,10 @@ namespace ExMétodos
                         } while (opcaoLogado != 0);
                     }
                     break;
-
                     case 0:
                     //Sai
                     Console.WriteLine("Obrigado pela atenção");
                     break;
-
                     default:
                     Console.WriteLine("Opção inválida, por favor digite novamente");
                     break;

@@ -9,8 +9,7 @@ namespace ExMétodos.Repositorio
     {
         // List<UsuarioViewModel> listaDeUsuarios = new List<UsuarioViewModel>();
 
-        public UsuarioViewModel Inserir(UsuarioViewModel usuario)
-        {
+        public UsuarioViewModel Inserir(UsuarioViewModel usuario){
             int contador = 0;
             List<UsuarioViewModel> listaDeUsuarios = Listar();
 
@@ -24,7 +23,7 @@ namespace ExMétodos.Repositorio
             //insere o objeto usuario dentro da lista
             // listaDeUsuarios.Add(usuario);
             StreamWriter sw = new StreamWriter("usuarios.csv");
-            sw.WriteLine("usuarios.csv");
+            sw.WriteLine($"{usuario.IdUsuario};{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataCriacao}");
             sw.Close();
 
             return usuario;
@@ -55,7 +54,7 @@ namespace ExMétodos.Repositorio
                 }//fim if
             }
             return listaDeUsuarios;
-        }
+        }//fim Listar
 
         public UsuarioViewModel BuscarUsuario(string email, string senha)
         {
@@ -67,7 +66,7 @@ namespace ExMétodos.Repositorio
                 {
                     return item;
                 }
-            }
+            }//fim foreach
             return null;
         }
 

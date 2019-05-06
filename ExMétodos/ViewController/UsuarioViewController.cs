@@ -76,6 +76,8 @@ namespace ExMétodos.ViewController
                     Console.WriteLine("por favor, coloque a primeira letra maiúscula e use os sinais de pontuação se necessário.");
                     Console.ResetColor();
                 }
+
+               
             } while (!ValidacaoUtil.ValidarTipo(tipo));
             
             

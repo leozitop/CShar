@@ -9,7 +9,7 @@ namespace ExMétodos.Repositorio
     {
         //List<TarefaViewModel> listaDeTarefas = new List<TarefaViewModel>();
 
-        public TarefaViewModel InserirTarefa(TarefaViewModel tarefa){
+        public TarefaViewModel Inserir(TarefaViewModel tarefa){
             int contador = 0;
             List<TarefaViewModel> listaDeTarefas = Listar();
 
@@ -20,10 +20,9 @@ namespace ExMétodos.Repositorio
 
             tarefa.Id = contador + 1;
             tarefa.DataCriacao = DateTime.Now;
-            // tarefa.IdUsuario = listaDeTarefas.Count + 1;
             // listaDeTarefas.Add(tarefa);
             StreamWriter sw = new StreamWriter("tarefas.csv");
-            sw.WriteLine("tarefas.csv");
+            sw.WriteLine($"{tarefa.Id};{tarefa.Nome};{tarefa.Descricao};{tarefa.Tipo};{tarefa.DataCriacao}");
             sw.Close();
 
             return tarefa;

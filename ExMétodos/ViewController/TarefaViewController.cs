@@ -10,10 +10,10 @@ namespace ExMétodos.ViewController
     {
         static TarefaRepositorio tarefaRepositorio = new TarefaRepositorio();
         
-
-        public static void CadastrarTarefa(){
+        public static void CadastrarTarefa(UsuarioViewModel usuario){
             string nome, descricao, tipo;
             int IdUsuario;
+
 
             do
             {
@@ -67,21 +67,26 @@ namespace ExMétodos.ViewController
             tarefaViewModel.Descricao = descricao;
             tarefaViewModel.Tipo = tipo;
 
-            tarefaRepositorio.InserirTarefa(tarefaViewModel);
+            tarefaRepositorio.Inserir(tarefaViewModel);
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Tarefa cadastrada com sucesso");
             Console.ResetColor();
         }
 
-        public static void ListarTarefa(){
+        public static void ListarTarefa(UsuarioViewModel usuario){
             List<TarefaViewModel> listaDeTarefas = tarefaRepositorio.Listar();
-
             foreach (var item in listaDeTarefas)
             {
-                Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.WriteLine($"Id: {item.Id} - Id do usuário: {item.IdUsuario} - Nome: {item.Nome} - Dscrição: {item.Descricao} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
-                Console.ResetColor();
+                if (item != null)
+                {
+                    if (item.Id.Equals(usuario.IdUsuario))
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        Console.WriteLine($"Id: {item.Id} - Id do usuário: {item.IdUsuario} - Nome: {item.Nome} - Dscrição: {item.Descricao} - Tipo: {item.Tipo} - Data de criação: {item.DataCriacao}");
+                        Console.ResetColor();
+                    }
+                }
             }
         }
 
