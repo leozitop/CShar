@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\bin\Debug\netcoreapp2.1\ExLixeiras.deps.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\bin\Debug\netcoreapp2.1\ExLixeiras.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\bin\Debug\netcoreapp2.1\ExLixeiras.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\bin\Debug\netcoreapp2.1\ExLixeiras.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\bin\Debug\netcoreapp2.1\ExLixeiras.pdb
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExLixeiras\obj\Debug\netcoreapp2.1\ExLixeiras.pdb
