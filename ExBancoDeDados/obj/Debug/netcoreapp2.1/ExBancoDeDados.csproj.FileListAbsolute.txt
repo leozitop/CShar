@@ -1,0 +1,11 @@
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.AssemblyInfo.cs
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\bin\Debug\netcoreapp2.1\ExBancoDeDados.deps.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\bin\Debug\netcoreapp2.1\ExBancoDeDados.runtimeconfig.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\bin\Debug\netcoreapp2.1\ExBancoDeDados.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\bin\Debug\netcoreapp2.1\ExBancoDeDados.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\bin\Debug\netcoreapp2.1\ExBancoDeDados.pdb
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.dll
+C:\Users\45684686800\Documents\CSHARP\CShar\ExBancoDeDados\obj\Debug\netcoreapp2.1\ExBancoDeDados.pdb

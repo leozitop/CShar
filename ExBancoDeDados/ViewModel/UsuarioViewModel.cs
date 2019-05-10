@@ -2,7 +2,7 @@ using System;
 
 namespace ExBancoDeDados.ViewModel
 {
-    public class UsuarioViewModel
+    public class UsuarioViewModel : BaseViewModel
     {
         public string Nome {get;set;}  
         
@@ -11,6 +11,8 @@ namespace ExBancoDeDados.ViewModel
         public string Senha{get;set;}
 
         public DateTime DataNascimento{get;set;}
+
+        public DateTime DataCriacao{get;set;}
 
 
     }

@@ -24,7 +24,7 @@ namespace ExBancoDeDados.Utils
         public static void MenuLogado(){
             Console.WriteLine("====================================");
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine($"     Seja Bem-vindo                ");
+            Console.WriteLine($"          Seja Bem-vindo!          ");
             Console.ResetColor();
             Console.WriteLine("====================================");
             Console.WriteLine("||      Digite sua opção:         ||");
@@ -32,6 +32,18 @@ namespace ExBancoDeDados.Utils
             Console.WriteLine("||  1 - Cadastrar Transações      ||");
             Console.WriteLine("||  2 - Listar Transações         ||");
             Console.WriteLine("||  3 - Exportar Transaões        ||");
+            Console.WriteLine("||  0 - Sair                      ||");
+            Console.WriteLine("||                                ||");
+            Console.WriteLine("====================================");
+        }
+
+        public static void MenuTipo(){
+            Console.ResetColor();
+            Console.WriteLine("====================================");
+            Console.WriteLine("||    Qual o tipo de transação    ||");
+            Console.WriteLine("||                                ||");
+            Console.WriteLine("||  1 - Receita                   ||");
+            Console.WriteLine("||  2 - Despesa                   ||");
             Console.WriteLine("||  0 - Sair                      ||");
             Console.WriteLine("||                                ||");
             Console.WriteLine("====================================");
