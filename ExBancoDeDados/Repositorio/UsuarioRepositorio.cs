@@ -9,7 +9,7 @@ namespace ExBancoDeDados.Repositorio {
         // UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio ();
         public UsuarioViewModel Inserir (UsuarioViewModel usuario) {
             int contador = 0;
-            List<UsuarioViewModel> listaDeUsuarios = new List<UsuarioViewModel> ();
+            List<UsuarioViewModel> listaDeUsuarios = Listar();
 
             if (listaDeUsuarios != null)
             {
@@ -19,7 +19,7 @@ namespace ExBancoDeDados.Repositorio {
             usuario.Id = contador + 1;
             usuario.DataCriacao = DateTime.Now;
 
-            StreamWriter sw = new StreamWriter ("usuarios.csv");
+            StreamWriter sw = new StreamWriter ("usuarios.csv", true);
             sw.WriteLine($"{usuario.Id};{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataNascimento};{usuario.DataCriacao}");
             sw.Close();
 

@@ -1,11 +1,25 @@
 ﻿using System;
+using System.IO.Compression;
 using ExBancoDeDados.Utils;
 using ExBancoDeDados.ViewController;
 using ExBancoDeDados.ViewModel;
+using Spire.Doc;
+using Spire.Doc.Documents;
+
 
 namespace ExBancoDeDados {
     class Program {
         static void Main (string[] args) {
+
+        // string startPath = @".\start";
+        // string zipPath = @".\.zip";
+        // string extractPath = @".\extract";
+
+        // ZipFile.CreateFromDirectory(startPath, zipPath);
+
+        // ZipFile.ExtractToDirectory(zipPath, extractPath);
+
+
             int opcaoDeslogado = 0;
             int opcaoLogado = 0;
 
@@ -40,12 +54,18 @@ namespace ExBancoDeDados {
                                         break;
 
                                     case 2:
-                                        //Listar Transação
+                                        //Exibir Extrato da Transação
                                         TransacaoViewController.ListarTransacao();
                                         break;
 
                                     case 3:
-                                        //Exportar Transação
+                                        //Exportar Transação em word
+                                        Document documento = new Document();
+                                        break;
+
+                                    case 4:
+                                        //Compactar em ZIP
+                                        TransacaoViewController.Zipar();
                                         break;
 
                                     case 0:

@@ -1,8 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.IO.Compression;
 using ExBancoDeDados.Repositorio;
 using ExBancoDeDados.Utils;
 using ExBancoDeDados.ViewModel;
+using Spire.Doc;
+using Spire.Doc.Documents;
+
 
 namespace ExBancoDeDados.ViewController
 {
@@ -51,12 +55,12 @@ namespace ExBancoDeDados.ViewController
                 }
             } while (string.IsNullOrEmpty(descricao));
 
+            System.Console.WriteLine("Digite o valor da trnsação a ser efetuada:");
+            valor = float.Parse(Console.ReadLine());
+
             System.Console.WriteLine("A data da sua transação é:");
             dataDaTransacao = DateTime.Now;
             Console.WriteLine(dataDaTransacao);
-
-            System.Console.WriteLine("Digite o valor da trnsação a ser efetuada:");
-            valor = float.Parse(Console.ReadLine());
 
             TransacaoViewModel transacaoViewModel = new TransacaoViewModel();
             transacaoViewModel.Tipo = tipo;
@@ -74,10 +78,25 @@ namespace ExBancoDeDados.ViewController
         public static void ListarTransacao(){
             List<TransacaoViewModel> listaDeTransacaoes = transacaoRepositorio.Listar();
 
-            foreach (var item in listaDeTransacaoes)
-            {
-                Console.WriteLine($"Id transação: {item.Id} - Tipo: {item.Tipo} - Descrição: {item.Descricao} - Data da transação: {item.DataDaTransacao} - Valor: {item.Valor}");
+            foreach (var item in listaDeTransacaoes){
+                System.Console.WriteLine($"Tipo: {item.Tipo} - Descrição: {item.Descricao} - Data da transação: {item.DataDaTransacao} - Valor: {item.Valor}");
             }
         }
+
+        public static void Extrato(){
+            System.Console.WriteLine("Seu saldo final é de:");
+        }
+        
+        public static void Zipar()
+        {
+            string startPath = @".\start";
+            string zipPath = @".\banco_de_dados.zip";
+            string extractPath = @".\extract";
+
+            ZipFile.CreateFromDirectory(startPath, zipPath);
+
+            ZipFile.ExtractToDirectory(zipPath, extractPath);
+        }
+
     }
 }

@@ -10,7 +10,7 @@ namespace ExBancoDeDados.ViewController {
         static UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio ();
         public static void CadastrarUsuario() {
             string nome, email, senha;
-            DateTime dataNascimento, dataDeCadastro;
+            DateTime dataNascimento;
 
             do {
                 System.Console.WriteLine("Insira o nome do usuário");
@@ -47,9 +47,6 @@ namespace ExBancoDeDados.ViewController {
 
             System.Console.WriteLine("Insira sua data de nascimento {dd/mm/yyyy");
             dataNascimento = DateTime.Parse(Console.ReadLine());
-
-            System.Console.WriteLine("Data de Cadastro");
-            dataDeCadastro = DateTime.Now;
 
             UsuarioViewModel usuarioViewModel = new UsuarioViewModel ();
             usuarioViewModel.Nome = nome;
