@@ -82,10 +82,6 @@ namespace ExBancoDeDados.ViewController
                 System.Console.WriteLine($"Tipo: {item.Tipo} - Descrição: {item.Descricao} - Data da transação: {item.DataDaTransacao} - Valor: {item.Valor}");
             }
         }
-
-        public static void Extrato(){
-            System.Console.WriteLine("Seu saldo final é de:");
-        }
         
         public static void Zipar()
         {

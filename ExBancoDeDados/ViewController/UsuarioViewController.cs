@@ -45,7 +45,7 @@ namespace ExBancoDeDados.ViewController {
                 }
             } while (string.IsNullOrEmpty(senha));
 
-            System.Console.WriteLine("Insira sua data de nascimento {dd/mm/yyyy");
+            System.Console.WriteLine("Insira sua data de nascimento {dd/mm/yyyy}");
             dataNascimento = DateTime.Parse(Console.ReadLine());
 
             UsuarioViewModel usuarioViewModel = new UsuarioViewModel ();
