@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using ExBancoDeDados.Repositorio;
 using ExBancoDeDados.Utils;
 using ExBancoDeDados.ViewModel;
+using Spire.Doc;
+using Spire.Doc.Documents;
 
 namespace ExBancoDeDados.ViewController {
     public class UsuarioViewController {
@@ -38,12 +40,12 @@ namespace ExBancoDeDados.ViewController {
                 System.Console.WriteLine("Digite sua senha");
                 senha = Console.ReadLine();
 
-                if (string.IsNullOrEmpty(senha)) {
+                if (!ValidacaoUtil.ValidarSenha(senha)) {
                     Console.ForegroundColor = ConsoleColor.Red;
                     System.Console.WriteLine("Digite sua senha novamente");
                     Console.ResetColor();
                 }
-            } while (string.IsNullOrEmpty(senha));
+            } while (!ValidacaoUtil.ValidarSenha(senha));
 
             System.Console.WriteLine("Insira sua data de nascimento {dd/mm/yyyy}");
             dataNascimento = DateTime.Parse(Console.ReadLine());
@@ -78,8 +80,14 @@ namespace ExBancoDeDados.ViewController {
                 }
             } while (!ValidacaoUtil.ValidarEmail(email));
 
-            Console.WriteLine("Digite a senha");
-            senha = Console.ReadLine();
+            do {
+                Console.WriteLine("Insira a senha do usuário");
+                senha = Console.ReadLine();
+                if (!ValidacaoUtil.ValidarSenha(senha)) {
+                    Console.WriteLine("Email Inválido");
+                }
+            } while (!ValidacaoUtil.ValidarSenha(senha));
+            
 
             UsuarioViewModel usuarioRecuperado = usuarioRepositorio.BuscarUusuario(email, senha);
             if (usuarioRecuperado != null) {
@@ -89,5 +97,6 @@ namespace ExBancoDeDados.ViewController {
                 return null;
             }
         }
+    
     }
 }

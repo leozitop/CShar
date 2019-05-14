@@ -15,7 +15,7 @@ namespace ExBancoDeDados.Repositorio
             transacao.DataDaTransacao = DateTime.Now;
 
             StreamWriter sw = new StreamWriter("transacoes.csv", true);
-            sw.WriteLine($"{transacao.Tipo};{transacao.Descricao};{transacao.Valor};{transacao.DataDaTransacao}");
+            sw.WriteLine($"{transacao.Tipo};{transacao.Valor};{transacao.Descricao};{transacao.DataDaTransacao}");
             sw.Close();
 
             return transacao;
@@ -40,9 +40,9 @@ namespace ExBancoDeDados.Repositorio
                 {
                     string[] dadosDeCadaTransacao = item.Split(";");
                     transacaoViewModel = new TransacaoViewModel();
-                    transacaoViewModel.Tipo = int.Parse(dadosDeCadaTransacao[0]);
-                    transacaoViewModel.Descricao = dadosDeCadaTransacao[1];
-                    transacaoViewModel.Valor = float.Parse(dadosDeCadaTransacao[2]);
+                    transacaoViewModel.Tipo = dadosDeCadaTransacao[0];
+                    transacaoViewModel.Valor = double.Parse(dadosDeCadaTransacao[1]);
+                    transacaoViewModel.Descricao = dadosDeCadaTransacao[2];
                     transacaoViewModel.DataDaTransacao = DateTime.Parse(dadosDeCadaTransacao[3]);
                     listaDeTransacoes.Add(transacaoViewModel);
                 }

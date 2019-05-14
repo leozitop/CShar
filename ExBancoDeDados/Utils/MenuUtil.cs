@@ -30,7 +30,7 @@ namespace ExBancoDeDados.Utils
             Console.WriteLine("||      Digite sua opção:         ||");
             Console.WriteLine("||                                ||");
             Console.WriteLine("||  1 - Cadastrar Transações      ||");
-            Console.WriteLine("||  2 - Extrato de Transaões      ||");
+            Console.WriteLine("||  2 - Listar Transações         ||");
             Console.WriteLine("||  3 - Exibir Relatório em Word  ||");
             Console.WriteLine("||  4 - Exportar transação        ||");
             Console.WriteLine("||  0 - Sair                      ||");
@@ -45,6 +45,7 @@ namespace ExBancoDeDados.Utils
             Console.WriteLine("||                                ||");
             Console.WriteLine("||  1 - Receita                   ||");
             Console.WriteLine("||  2 - Despesa                   ||");
+            Console.WriteLine("||  3 - Extrato Geral             ||");
             Console.WriteLine("||  0 - Sair                      ||");
             Console.WriteLine("||                                ||");
             Console.WriteLine("====================================");
